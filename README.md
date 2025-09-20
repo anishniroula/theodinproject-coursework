@@ -4,9 +4,9 @@ This repository contains a collection of projects completed as part of [The Odin
 
 ### The Odin Project - Foundations
 
-| Project Name | Repository                                                                                                        | Preview                                                                                                         |
-| :----------- | :---------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------- |
-| Odin Recipes | [View Code](https://github.com/anishniroula/theodinproject-coursework/foundations/odin-recipes/odin-recipes.html) | [View Live](http://anishniroula.github.io/theodinproject-coursework/foundations/odin-recipes/odin-recipes.html) |
+| Project Name | Repository                                                                                                | Preview                                                                                                         |
+| :----------- | :-------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------- |
+| Odin Recipes | [View Code](https://github.com/anishniroula/theodinproject-coursework/tree/main/foundations/odin-recipes) | [View Live](http://anishniroula.github.io/theodinproject-coursework/foundations/odin-recipes/odin-recipes.html) |
 
 ---
 
