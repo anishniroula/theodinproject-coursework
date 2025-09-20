@@ -1,0 +1,164 @@
+:root {
+  --primary-bg: #f7f7e8;
+  --text-dark: #100b00;
+  --accent-color: #a62900;
+  --secondary-bg: #eae3d4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--primary-bg);
+  color: var(--text-dark);
+  width: 800px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-bg);
+}
+
+.header {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+  gap: 4px;
+}
+
+.header a {
+  width: max-content;
+  padding: 4px 8px;
+  color: var(--text-dark);
+  border: 2px solid var(--text-dark);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.header a:hover {
+  color: var(--accent-color);
+  transform: scale(1.04);
+  border-color: var(--accent-color);
+  border-radius: 0;
+}
+
+.header a:hover svg {
+  fill: var(--accent-color);
+}
+
+.header svg {
+  width: 16px;
+  height: auto;
+}
+
+.header h1 {
+  margin: 0 auto;
+  position: relative;
+  font-size: 2.8rem;
+}
+
+.header h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 8px solid #a62900;
+}
+
+.recipes-images {
+  margin: 0 auto;
+  margin-top: 16px;
+  width: 792px;
+  height: 414px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  transform: scale(1.011);
+}
+
+.mirmirs-eye-soup {
+  background-image: url(mimirs-eye-soup.png);
+}
+
+.fernirs-feast {
+  background-image: url(fernirs-feast.png);
+}
+
+.yggdrasils-ambrosia {
+  background-image: url(yggdrasils-ambrosia.png);
+}
+
+.recipes-info {
+  list-style-type: none;
+  margin-bottom: 32px;
+}
+
+.recipes-info h2 {
+  color: var(--accent-color);
+}
+
+.recipes-info h3,
+.recipes-info b {
+  font-weight: 500;
+}
+
+.recipes-info li {
+  margin: 8px 0;
+  border-radius: 4px;
+}
+
+.recipes-info .recipes-detail {
+  margin-top: 32px;
+}
+
+.margin-top-12 {
+  margin-top: 12px;
+}
+
+.recipes-detail ul,
+.recipes-detail ol {
+  margin-left: 16px;
+}
+
+.ingredients ul {
+  list-style-type: disc;
+}
+
+footer {
+  border-radius: 4px 4px 0 0;
+  padding: 12px 0;
+  text-align: center;
+  background-color: var(--secondary-bg);
+  color: var(--text-dark);
+}
+
+footer a {
+  font-weight: 500;
+  font-size: 24px;
+  background-image: linear-gradient(to right, #4285f4, #0f9d58);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+footer a:hover {
+  background-image: linear-gradient(
+    to right,
+    #0f9d58,
+    #4285f4
+  ); /* Reverses the gradient on hover */
+}

@@ -1,0 +1,171 @@
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  width: 800px;
+  margin: 0 auto;
+  background-color: #f9fafb;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* SVG & Icon Styles */
+svg {
+  width: 30px;
+  height: auto;
+}
+
+.link-icon {
+  height: auto;
+  width: 15px;
+}
+
+/* Header */
+.header {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0px;
+}
+
+.header a {
+  margin-left: auto;
+  padding: 5px 10px;
+  color: white;
+  background-color: #212830;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.5s ease;
+}
+
+.header a:hover {
+  transform: scale(1.05);
+  background: #00786f;
+}
+
+/* Info Banner */
+.info-text {
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #00786f;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.info-text svg {
+  margin-right: 5px;
+}
+
+.info-text a {
+  color: white;
+}
+
+.info-text a:hover {
+  transform: scale(1.02);
+}
+
+/* Main Content */
+.course-title {
+  padding: 10px 0px;
+}
+
+.course-projects {
+  padding: 10px 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.project-item-buttons {
+  display: flex;
+  margin-left: auto;
+  gap: 10px;
+}
+
+.link-button a {
+  display: inline-block;
+  transition: all 0.5s ease;
+  color: #00786f;
+}
+
+.link-button a:hover {
+  font-weight: 600;
+}
+
+/* Responsive Design (Mobile) */
+@media (max-width: 768px) {
+  body {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+    padding: 20px 0px;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .header a {
+    margin-left: 0;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .course-title {
+    font-size: 1.2rem;
+  }
+
+  .project-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .project-item-buttons {
+    margin-left: 0;
+    flex-wrap: wrap;
+  }
+
+  .project-item-buttons .link-button {
+    flex: 1 1 auto;
+  }
+
+  .info-text {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
