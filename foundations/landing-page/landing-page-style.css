@@ -1,0 +1,226 @@
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+  --color-dark-background: #1f2937;
+  --color-light-text: #f9faf8;
+  --color-accent-text: #e5e7eb;
+  --color-blue-action: #3882f6;
+
+  /* Typography */
+  --font-family-primary: "Roboto", sans-serif;
+  --font-weight-heavy: 900;
+  --font-weight-light: 300;
+
+  /* Specific Components */
+  --hero-title-size: 48px;
+  --hero-subtitle-size: 18px;
+  --hero-logo-size: 24px;
+  --info-header-size: 36px;
+  --quote-text-size: 36px;
+  --quote-background-color: #e5e7eb;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+.main-header,
+.random-info,
+.quote-section,
+.sign-up,
+.footer {
+  padding: 4vh 12vw;
+}
+
+/* Main Header */
+
+.main-header {
+  background-color: var(--color-dark-background);
+  color: var(--color-light-text);
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header .nav-header a {
+  text-decoration: none;
+  color: var(--color-accent-text);
+}
+
+.main-header .nav-header a:hover {
+  text-decoration: underline;
+  color: var(--color-light-text);
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+
+.nav-header ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: auto;
+  gap: 1vw;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  margin: 10vh 0;
+  gap: 8vw;
+}
+
+.main-header .header-logo {
+  font-size: var(--hero-logo-size);
+  font-weight: var(--font-weight-heavy);
+  color: var(--color-light-text);
+}
+
+.hero-section .hero-image {
+  margin-left: auto;
+  width: 50vw;
+  height: 30vh;
+  background-image: url(placeholder-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-section .hero-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.hero-main-text {
+  font-size: var(--hero-title-size);
+}
+
+.hero-secondary-text {
+  font-size: var(--hero-subtitle-size);
+}
+
+.hero-button {
+  text-decoration: none;
+  color: var(--color-light-text);
+  width: fit-content;
+  padding: 8px 24px;
+  border-radius: 8px;
+  background-color: var(--color-blue-action);
+}
+
+/* Random Info Section */
+.random-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.random-info-cards {
+  display: flex;
+  align-items: center;
+  gap: 4vw;
+  margin: 4vh 0;
+}
+
+.section-header {
+  color: var(--color-dark-background);
+  font-size: var(--info-header-size);
+  font-weight: var(--font-weight-heavy);
+}
+
+.info-card {
+  width: 12vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  text-align: center;
+  color: var(--color-dark-background);
+}
+
+.info-card .info-card-image {
+  width: 12vw;
+  height: 24vh;
+  background-image: url(placeholder-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 4px solid var(--color-blue-action);
+  border-radius: 8px;
+}
+
+/* Quotes Section */
+.quote-section {
+  background-color: var(--quote-background-color);
+  color: var(--color-dark-background);
+  font-weight: var(--font-weight-light);
+  font-size: var(--quote-text-size);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12vh 20vw;
+  text-align: left;
+  font-style: italic;
+  gap: 2vh;
+}
+
+.quote-section .quote-author {
+  align-self: flex-end;
+  font-style: normal;
+  font-weight: var(--font-weight-heavy);
+  font-size: var(--hero-logo-size);
+}
+
+/* Sign Up Section */
+.sign-up-container {
+  margin: 12vh 4vw;
+  background-color: var(--color-blue-action);
+  padding: 6vh 8vw;
+  color: var(--color-light-text);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.sign-up-message {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8vh;
+}
+
+.message-text-main {
+  font-size: var(--hero-logo-size);
+}
+
+.message-text-secondary {
+  color: var(--color-accent-text);
+}
+
+.sign-up-button {
+  margin-left: auto;
+  text-decoration: none;
+  color: var(--color-light-text);
+  width: fit-content;
+  padding: 8px 24px;
+  border-radius: 8px;
+  border: 2px solid var(--color-light-text);
+  color: var(--color-light-text);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: var(--color-dark-background);
+  color: var(--color-light-text);
+  font-weight: var(--font-weight-light);
+  font-size: var(--hero-subtitle-size);
+}
