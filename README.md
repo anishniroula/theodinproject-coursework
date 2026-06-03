@@ -4,10 +4,11 @@ This repository contains a collection of projects completed as part of [The Odin
 
 ### The Odin Project - Foundations
 
-| Project Name | Repository                                                                                                 | Preview                                                                                                         |
-| :----------- | :--------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------- |
-| Odin Recipes | [View Code](https://github.com/anishniroula/theodinproject-coursework/tree/main/foundations/odin-recipes)  | [View Live](http://anishniroula.github.io/theodinproject-coursework/foundations/odin-recipes/odin-recipes.html) |
-| Landing Page | [View Code](https://github.com/anishniroula/theodinproject-coursework/tree/main/foundations/landing-page/) | [View Live](http://anishniroula.github.io/theodinproject-coursework/foundations/landing-page/landing-page.html) |
+| Project Name             | Repository                                                                                                       | Preview                                                                                                          |
+| :----------------------- | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
+| Odin Recipes             | [View Code](https://github.com/anishniroula/theodinproject-coursework/tree/main/foundations/odin-recipes)        | [View Live](http://anishniroula.github.io/theodinproject-coursework/foundations/odin-recipes/odin-recipes.html)  |
+| Landing Page             | [View Code](https://github.com/anishniroula/theodinproject-coursework/tree/main/foundations/landing-page/)       | [View Live](http://anishniroula.github.io/theodinproject-coursework/foundations/landing-page/landing-page.html)  |
+| Rock Paper Scissors(CLI) | [View Code](https://github.com/anishniroula/theodinproject-coursework/tree/main/foundations/rock-paper-scissors) | [View Live](https://anishniroula.github.io/theodinproject-coursework/foundations/rock-paper-scissors/index.html) |
 
 ---
 
